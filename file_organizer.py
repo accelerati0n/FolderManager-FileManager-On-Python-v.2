@@ -26,7 +26,7 @@ class FileOrganizer(FolderManager):
         }
 
     def organize_files(self):
-        """Busca archivos en las rutas definidas y los mueve a las carpetas correspondientes."""
+        """Busca archivos en las rutas definidas y los mueve a las carpetas correspondientes en Escritorio/Documents."""
         moved_files = 0
         for path in self.search_paths:
             if not os.path.exists(path):
@@ -42,4 +42,4 @@ class FileOrganizer(FolderManager):
                             moved_files += 1
                         except Exception as e:
                             print(f"⚠️ No se pudo mover {file}: {e}")
-        print(f"✅ Se organizaron {moved_files} archivos en las carpetas correspondientes.")
+        print(f"✅ Se organizaron {moved_files} archivos en {self.base_folder}.")
