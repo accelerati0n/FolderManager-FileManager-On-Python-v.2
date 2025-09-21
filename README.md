@@ -20,7 +20,7 @@ pip install python-docx reportlab openpyxl
 
 Ejecutar el programa principal:
 
-python main.py
+python gui.py
 
 Se generarán los archivos de prueba en la estructura de carpetas automáticamente.
 
