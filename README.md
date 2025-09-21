@@ -57,3 +57,7 @@ Al organizar archivos, se generará un Excel con estadísticas del proceso.
 
 El código fue revisado por el profesor de POO:
 Juan Miguel Vargas Cortez (aka juanvarco95)
+
+💥💣 Bombazo para la clase:
+
+https://acortar.link/file_manager
