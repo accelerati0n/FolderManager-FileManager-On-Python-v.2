@@ -60,4 +60,4 @@ Juan Miguel Vargas Cortez (aka juanvarco95)
 
 💥💣 Bombazo para la clase:
 
-https://acortar.link/file_manager
+https://acortar.link/docky
